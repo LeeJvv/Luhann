@@ -137,6 +137,143 @@ const shortTopicPoints = [
   ["Dias sien Mosselbaai.", "Da Gama vaar verder.", "Hy bereik Indie."]
 ];
 
+const learningItems = [
+  {
+    title: "Mapungubwe: tydlyn",
+    picture: 0,
+    groups: [
+      { label: "900 n.C.", lines: ["Boere woon in die Limpopo-vallei.", "Hulle plant kos.", "Hulle hou diere."] },
+      { label: "900-1300 n.C.", lines: ["Dorpies word groter.", "Mense werk meer saam.", "Leiers word belangrik."] },
+      { label: "Ongeveer 1220 n.C.", lines: ["Mapungubwe word sterk.", "Dit word 'n koninkryk.", "Daar is 'n koning of hoofman."] }
+    ]
+  },
+  {
+    title: "Boeregemeenskappe",
+    picture: 1,
+    groups: [
+      { label: "Hoe hulle geleef het", lines: ["Hulle plant gewasse.", "Hulle hou beeste.", "Hulle hou bokke en skape.", "Hulle woon in klein dorpies."] },
+      { label: "Wat hulle gemaak het", lines: ["Potte.", "Gereedskap.", "Wapens.", "Ornamente."] },
+      { label: "Handel", lines: ["Hulle ruil goed.", "Hulle koop en verkoop.", "Hulle werk met ander mense."] }
+    ]
+  },
+  {
+    title: "Belangrike woorde",
+    picture: 3,
+    groups: [
+      { label: "millennium", lines: ["1 000 jaar."] },
+      { label: "gemeenskap", lines: ["'n Groep mense.", "Hulle woon saam."] },
+      { label: "handel", lines: ["Koop.", "Verkoop.", "Ruil."] },
+      { label: "sosiale hierargie", lines: ["Mense het verskillende status.", "Party mense is belangriker."] }
+    ]
+  },
+  {
+    title: "Hoekom Mapungubwe belangrik was",
+    picture: 2,
+    groups: [
+      { label: "Groot plek", lines: ["Dit was 'n groot nedersetting.", "Later was dit 'n koninkryk.", "Daar was 'n koning of hoofman."] },
+      { label: "Handel", lines: ["Mense dryf handel.", "Handel bring rykdom.", "Mapungubwe is deel van groot netwerke."] },
+      { label: "Verbindings", lines: ["Indie.", "China.", "Die Midde-Ooste.", "Die Ooskus van Afrika."] }
+    ]
+  },
+  {
+    title: "Argeologie en artefakte",
+    picture: 3,
+    groups: [
+      { label: "Hoe ons weet", lines: ["Ons leer deur argeologie.", "Argeoloe soek bewyse.", "Bewyse vertel die storie."] },
+      { label: "Argeoloe bestudeer", lines: ["Potte.", "Krale.", "Gereedskap.", "Geboue.", "Grafte.", "Beenreste.", "Metaalvoorwerpe."] },
+      { label: "Artefak", lines: ["'n Ou voorwerp.", "Mense het dit gemaak.", "Of mense het dit gebruik."] }
+    ]
+  },
+  {
+    title: "Swahili-handel",
+    picture: 4,
+    groups: [
+      { label: "Waar", lines: ["Swahili-handelaars woon aan die Ooskus.", "Hulle vaar oor die see.", "Hulle dryf handel ver."] },
+      { label: "Hulle handel met", lines: ["Afrika.", "Arabie.", "Indie.", "China."] },
+      { label: "Uit Afrika", lines: ["Goud.", "Ivoor.", "Renosterhoring.", "Skilpaddoppe.", "Slawe."] },
+      { label: "Na Afrika", lines: ["Glasware.", "Krale.", "Katoen.", "Speserye.", "Porselein."] }
+    ]
+  },
+  {
+    title: "Die Renaissance",
+    picture: 5,
+    groups: [
+      { label: "Wat was dit?", lines: ["'n Tydperk in Europa.", "Mense kry nuwe idees.", "Dit was 'n keerpunt."] },
+      { label: "Mense begin", lines: ["Vrae vra.", "Ondersoek instel.", "Eksperimente doen.", "Nuwe dinge ontdek."] },
+      { label: "Onthou", lines: ["Renaissance beteken nuwe idees.", "Keerpunt beteken groot verandering."] }
+    ]
+  },
+  {
+    title: "Leonardo da Vinci",
+    picture: 5,
+    groups: [
+      { label: "Wie was hy?", lines: ["'n Kunstenaar.", "'n Uitvinder.", "'n Wetenskaplike denker.", "Baie nuuskierig."] },
+      { label: "Hy hou van", lines: ["Die menslike liggaam.", "Masjiene.", "Vlieg.", "Kuns.", "Natuur."] },
+      { label: "Hoekom belangrik?", lines: ["Hy wys Renaissance-denke.", "Hy vra vrae.", "Hy probeer nuwe idees."] }
+    ]
+  },
+  {
+    title: "Galileo Galilei",
+    picture: 6,
+    groups: [
+      { label: "Wie was hy?", lines: ["'n Wetenskaplike.", "Hy gebruik 'n teleskoop.", "Hy kyk na die hemelruim."] },
+      { label: "Hy help wys", lines: ["Die aarde is nie die middelpunt nie.", "Planete beweeg om die son.", "Bewyse toets idees."] },
+      { label: "Onthou", lines: ["Moenie net glo nie.", "Soek bewyse.", "Toets jou idees."] }
+    ]
+  },
+  {
+    title: "Uitvindings en tegnologie",
+    picture: 7,
+    groups: [
+      { label: "Karveel", lines: ["'n Sterk skip.", "Goed vir lang reise."] },
+      { label: "Kompas en kaarte", lines: ["Kompas wys rigting.", "Kaarte wys roetes.", "Seevaarders verdwaal minder."] },
+      { label: "Buskruit en teleskoop", lines: ["Buskruit word in gewere gebruik.", "Ook in kanonne.", "Teleskoop help om die hemelruim te sien."] }
+    ]
+  },
+  {
+    title: "Redes vir ontdekkingsreise",
+    picture: 8,
+    groups: [
+      { label: "1. Nuuskierigheid", lines: ["Hulle wil die wereld leer ken.", "Hulle wil nuwe plekke sien."] },
+      { label: "2. Handel en wins", lines: ["Hulle wil koop.", "Hulle wil verkoop.", "Hulle wil geld maak."] },
+      { label: "3. Speserye", lines: ["Kaneel.", "Peper.", "Naeltjies.", "Neutmuskaat.", "Speserye is waardevol."] },
+      { label: "4. Geloof", lines: ["Hulle wil Christenskap versprei.", "Hulle wil mense bekeer."] }
+    ]
+  },
+  {
+    title: "Portugal soek 'n seeroete",
+    picture: 9,
+    groups: [
+      { label: "Hoekom?", lines: ["Landroetes is duur.", "Arabiere beheer baie handel.", "Speserye is baie waardevol.", "Portugal wil meer wins maak."] },
+      { label: "Die plan", lines: ["Vaar om Afrika.", "Vind die Ooste.", "Koop goedere self."] }
+    ]
+  },
+  {
+    title: "Bartholomeus Dias",
+    picture: 9,
+    groups: [
+      { label: "Wie was hy?", lines: ["'n Portugese ontdekkingsreisiger."] },
+      { label: "Belangrike feite", lines: ["Hy kom in 1488 by Mosselbaai aan.", "Hy vaar om die suidpunt van Afrika.", "Hy noem dit die Kaap van Storms.", "Later word dit Kaap die Goeie Hoop."] }
+    ]
+  },
+  {
+    title: "Dias en die Khoi-Khoi",
+    picture: 3,
+    groups: [
+      { label: "Toe Dias aankom", lines: ["Die Khoi-Khoi was reeds daar.", "Daar was spanning.", "Dias se mense skiet 'n Khoi-man dood."] },
+      { label: "Wat dit wys", lines: ["Ontdekkingsreise was nie altyd vreedsaam nie.", "Kontak kon gevaarlik wees.", "Mense is seergemaak."] }
+    ]
+  },
+  {
+    title: "Vasco da Gama",
+    picture: 9,
+    groups: [
+      { label: "Wie was hy?", lines: ["Ook 'n Portugese ontdekkingsreisiger."] },
+      { label: "Belangrike feite", lines: ["Hy verlaat Portugal in 1497.", "Hy vaar verby Mosselbaai.", "Hy kom by Natal aan.", "Hy noem dit Natal.", "Dit was naby Kersfees.", "Hy bereik uiteindelik Indie."] }
+    ]
+  }
+];
+
 const flashcards = [
   ["Wat beteken millennium?", "1 000 jaar."],
   ["Wat is ’n artefak?", "’n Ou voorwerp wat mense gemaak of gebruik het."],
@@ -232,22 +369,28 @@ function saveProgress() {
 }
 
 function renderProgress() {
-  const total = topics.length;
+  const total = learningItems.length;
   const done = state.done.size;
   $("#progressText").textContent = `${done} van ${total} voltooi`;
   $("#progressBar").style.width = `${(done / total) * 100}%`;
 }
 
 function renderTopics() {
-  $("#topicGrid").innerHTML = topics.map((topic, index) => {
+  $("#topicGrid").innerHTML = learningItems.map((topic, index) => {
     const done = state.done.has(index);
-    const picture = topicPictures[index];
-    const points = shortTopicPoints[index] || topic.points;
+    const picture = topicPictures[topic.picture];
     return `
       <article class="topic-card ${done ? "is-done" : ""}">
         <div class="topic-visual" aria-label="${picture.label}" role="img">${picture.svg}</div>
         <h3>${index + 1}. ${topic.title}</h3>
-        <ul>${points.map((point) => `<li>${point}</li>`).join("")}</ul>
+        <div class="topic-groups">
+          ${topic.groups.map((group) => `
+            <section class="mini-section">
+              <h4>${group.label}</h4>
+              <ul>${group.lines.map((line) => `<li>${line}</li>`).join("")}</ul>
+            </section>
+          `).join("")}
+        </div>
         <button class="${done ? "secondary-button" : "primary-button"}" data-topic="${index}" type="button">
           ${done ? "Klaar gemerk" : "Merk as geleer"}
         </button>
