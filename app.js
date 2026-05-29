@@ -81,6 +81,62 @@ const topics = [
   }
 ];
 
+const topicPictures = [
+  {
+    label: "Heuwel",
+    svg: `<svg viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#d9f3ee"></rect><circle cx="92" cy="21" r="13" fill="#f59e0b"></circle><path d="M15 74c18-28 39-38 62-24 13 8 22 7 31 1v23z" fill="#0f766e"></path><path d="M42 48h36v26H42z" fill="#9a3412"></path><path d="M35 48h50L60 29z" fill="#facc15"></path></svg>`
+  },
+  {
+    label: "Plaas",
+    svg: `<svg viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#eef7d6"></rect><path d="M16 70h88" stroke="#65a30d" stroke-width="7" stroke-linecap="round"></path><path d="M28 61c0-17 12-28 28-28s28 11 28 28" fill="#fef3c7"></path><path d="M41 61V43h30v18" fill="#b45309"></path><circle cx="86" cy="55" r="9" fill="#0f766e"></circle></svg>`
+  },
+  {
+    label: "Kroon",
+    svg: `<svg viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#fff7d6"></rect><path d="M25 58l10-29 24 22 26-22 10 29z" fill="#f59e0b"></path><path d="M30 63h60v10H30z" fill="#92400e"></path><circle cx="35" cy="28" r="6" fill="#ef4444"></circle><circle cx="60" cy="48" r="6" fill="#0ea5e9"></circle><circle cx="85" cy="28" r="6" fill="#22c55e"></circle></svg>`
+  },
+  {
+    label: "Artefakte",
+    svg: `<svg viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#f3eadc"></rect><path d="M39 26h42l-7 45H46z" fill="#c2410c"></path><path d="M47 36h26M45 50h30" stroke="#fed7aa" stroke-width="5" stroke-linecap="round"></path><circle cx="84" cy="66" r="10" fill="#0f766e"></circle><path d="M28 68l19-19" stroke="#475569" stroke-width="6" stroke-linecap="round"></path></svg>`
+  },
+  {
+    label: "Handel",
+    svg: `<svg viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#dbeafe"></rect><path d="M21 60h78l-13 16H34z" fill="#0f766e"></path><path d="M38 58V25l34 12-34 12" fill="#f8fafc" stroke="#1e3a8a" stroke-width="4" stroke-linejoin="round"></path><circle cx="35" cy="65" r="5" fill="#f59e0b"></circle><circle cx="57" cy="65" r="5" fill="#ef4444"></circle><circle cx="79" cy="65" r="5" fill="#22c55e"></circle></svg>`
+  },
+  {
+    label: "Idees",
+    svg: `<svg viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#ede9fe"></rect><circle cx="60" cy="38" r="22" fill="#facc15"></circle><path d="M49 64h22v10H49z" fill="#7c3aed"></path><path d="M30 38H18M102 38H90M60 8v12M35 14l8 10M85 14l-8 10" stroke="#6d28d9" stroke-width="5" stroke-linecap="round"></path></svg>`
+  },
+  {
+    label: "Teleskoop",
+    svg: `<svg viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#e0f2fe"></rect><path d="M34 55l43-25 9 15-43 25z" fill="#1d4ed8"></path><path d="M75 27l12-7 12 21-12 7z" fill="#0f766e"></path><path d="M54 63l-8 16M58 61l14 15" stroke="#475569" stroke-width="5" stroke-linecap="round"></path><circle cx="29" cy="24" r="5" fill="#f59e0b"></circle></svg>`
+  },
+  {
+    label: "Kompas",
+    svg: `<svg viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#ecfeff"></rect><circle cx="60" cy="45" r="29" fill="#ffffff" stroke="#0f766e" stroke-width="6"></circle><path d="M66 39l17-18-8 24-21 25 7-25-24 8z" fill="#d97706"></path><circle cx="60" cy="45" r="5" fill="#17212b"></circle></svg>`
+  },
+  {
+    label: "Speserye",
+    svg: `<svg viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#fff1e6"></rect><path d="M30 32h60l-8 42H38z" fill="#b45309"></path><path d="M34 32l8-12h36l8 12" fill="#f59e0b"></path><circle cx="48" cy="54" r="5" fill="#fed7aa"></circle><circle cx="61" cy="48" r="5" fill="#fde68a"></circle><circle cx="73" cy="58" r="5" fill="#bbf7d0"></circle></svg>`
+  },
+  {
+    label: "Skip",
+    svg: `<svg viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#dbeafe"></rect><path d="M19 62h82L86 76H35z" fill="#7c2d12"></path><path d="M56 57V18" stroke="#334155" stroke-width="5" stroke-linecap="round"></path><path d="M60 21v31h31c-8-15-18-25-31-31z" fill="#f8fafc" stroke="#0f766e" stroke-width="4"></path><path d="M52 27v27H29c5-13 13-22 23-27z" fill="#fef3c7" stroke="#d97706" stroke-width="4"></path></svg>`
+  }
+];
+
+const shortTopicPoints = [
+  ["Mense woon hier.", "Dorpies groei.", "Mapungubwe word sterk."],
+  ["Plant kos.", "Hou diere.", "Maak potte en goed."],
+  ["Daar is 'n koning.", "Mense dryf handel.", "Mapungubwe is belangrik."],
+  ["Argeoloe soek bewyse.", "Potte en krale help.", "Dit vertel die storie."],
+  ["Handelaars vaar ver.", "Goud gaan uit.", "Krale kom in."],
+  ["Nuwe idees begin.", "Mense vra vrae.", "Hulle toets idees."],
+  ["Leonardo maak idees.", "Galileo kyk na sterre.", "Bewyse is belangrik."],
+  ["Karveel: sterk skip.", "Kompas: wys rigting.", "Teleskoop: kyk ver."],
+  ["Hulle soek geld.", "Hulle soek speserye.", "Hulle wil reis."],
+  ["Dias sien Mosselbaai.", "Da Gama vaar verder.", "Hy bereik Indie."]
+];
+
 const flashcards = [
   ["Wat beteken millennium?", "1 000 jaar."],
   ["Wat is ’n artefak?", "’n Ou voorwerp wat mense gemaak of gebruik het."],
@@ -185,10 +241,13 @@ function renderProgress() {
 function renderTopics() {
   $("#topicGrid").innerHTML = topics.map((topic, index) => {
     const done = state.done.has(index);
+    const picture = topicPictures[index];
+    const points = shortTopicPoints[index] || topic.points;
     return `
       <article class="topic-card ${done ? "is-done" : ""}">
+        <div class="topic-visual" aria-label="${picture.label}" role="img">${picture.svg}</div>
         <h3>${index + 1}. ${topic.title}</h3>
-        <ul>${topic.points.map((point) => `<li>${point}</li>`).join("")}</ul>
+        <ul>${points.map((point) => `<li>${point}</li>`).join("")}</ul>
         <button class="${done ? "secondary-button" : "primary-button"}" data-topic="${index}" type="button">
           ${done ? "Klaar gemerk" : "Merk as geleer"}
         </button>
