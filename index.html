@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Graad 6 Geskiedenis Leermaat</title>
+    <title>Luhann se Geskiedenis Leermaat</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="app-header">
       <div class="title-block">
-        <span class="subject-chip">Graad 6 Geskiedenis</span>
-        <h1>Geskiedenis Leermaat</h1>
+        <span class="subject-chip">Luhann | Graad 6 Geskiedenis</span>
+        <h1>Luhann se Geskiedenis Leermaat</h1>
         <p>Afrika-koninkryke, Renaissance en Europese ontdekkingsreise.</p>
       </div>
       <div class="hero-art" aria-hidden="true">
@@ -37,7 +37,7 @@
       <section class="progress-panel" aria-label="Vordering">
         <div>
           <span class="eyebrow">Vandag se mikpunt</span>
-          <h2>Leer 10 minute, toets 5 vrae, herhaal môre.</h2>
+          <h2>Leer 15 minute, toets moeiliker vrae, oefen langer antwoorde.</h2>
         </div>
         <div class="progress-card">
           <span id="progressText">0 van 0 voltooi</span>
@@ -51,6 +51,7 @@
         <button class="tab is-active" data-view="learn">Leerpad</button>
         <button class="tab" data-view="cards">Flitskaarte</button>
         <button class="tab" data-view="quiz">Vasvra</button>
+        <button class="tab" data-view="practice">Vraestel-oefen</button>
         <button class="tab" data-view="timeline">Tydlyn</button>
         <button class="tab" data-view="words">Woordelys</button>
       </nav>
@@ -70,12 +71,12 @@
         <div class="view-heading">
           <div>
             <span class="eyebrow">Flitskaarte</span>
-            <h2 id="cardsTitle">Draai die kaart om en sê die antwoord hardop</h2>
+            <h2 id="cardsTitle">Draai die kaart om en sê die antwoord volledig hardop</h2>
           </div>
           <div class="card-actions">
-            <button id="prevCard" class="icon-button" type="button" aria-label="Vorige kaart">‹</button>
+            <button id="prevCard" class="icon-button" type="button" aria-label="Vorige kaart">&lsaquo;</button>
             <button id="flipCard" class="primary-button" type="button">Wys antwoord</button>
-            <button id="nextCard" class="icon-button" type="button" aria-label="Volgende kaart">›</button>
+            <button id="nextCard" class="icon-button" type="button" aria-label="Volgende kaart">&rsaquo;</button>
           </div>
         </div>
         <article id="flashcard" class="flashcard" tabindex="0" aria-live="polite"></article>
@@ -91,6 +92,16 @@
           <button id="restartQuiz" class="secondary-button" type="button">Begin weer</button>
         </div>
         <div id="quizBox" class="quiz-box"></div>
+      </section>
+
+      <section id="practice" class="view" aria-labelledby="practiceTitle">
+        <div class="view-heading">
+          <div>
+            <span class="eyebrow">Vraestel-oefen</span>
+            <h2 id="practiceTitle">Oefen antwoorde wat punte tel</h2>
+          </div>
+        </div>
+        <div id="practiceList" class="practice-list"></div>
       </section>
 
       <section id="timeline" class="view" aria-labelledby="timelineTitle">
