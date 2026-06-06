@@ -1,12 +1,8 @@
-# Luhann se Geskiedenis Leermaat
+# Luhann se NWT Leermaat
 
-Afrikaanse Graad 6 leer-app vir:
+Afrikaanse Graad 6 leer-app vir Natuurwetenskappe en Tegnologie.
 
-- Mapungubwe en die Limpopo-vallei
-- Swahili-handel
-- Die Renaissance
-- Leonardo da Vinci en Galileo Galilei
-- Europese ontdekkingsreise
-- Bartholomeus Dias en Vasco da Gama
+Die vorige kwartaalinhoud is verwyder. Nuwe NWT-inhoud kan uit die volgende
+PDF-dokumente bygevoeg word wanneer dit beskikbaar is.
 
 Maak `index.html` oop, of publiseer die repo met GitHub Pages vanaf die `main` branch.
