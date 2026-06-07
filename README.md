@@ -1,8 +1,11 @@
-# Luhann se NWT Leermaat
+# Luhann se Leerapps
 
-Afrikaanse Graad 6 leer-app vir Natuurwetenskappe en Tegnologie.
+Afrikaanse Graad 6 leer-apps vir Luhann se vakke.
 
-Die vorige kwartaalinhoud is verwyder. Nuwe NWT-inhoud kan uit die volgende
-PDF-dokumente bygevoeg word wanneer dit beskikbaar is.
+## Skakels
+
+- Hoofblad: `https://leejvv.github.io/Luhann/`
+- NWT: `https://leejvv.github.io/Luhann/nwt/`
+- Geografie: `https://leejvv.github.io/Luhann/geografie/`
 
 Maak `index.html` oop, of publiseer die repo met GitHub Pages vanaf die `main` branch.
